@@ -1,0 +1,68 @@
+
+.scorebox {
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.score {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+.questionanswer {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    height: 650px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: blue;
+    
+}
+
+.buttons * {
+    border-style: solid;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+#qimage {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.leaderboard {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.leaderboard * {
+    width: 50px;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.leaderboard > * {
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    border-style: groove;
+    float: none;
+}
